@@ -1,1 +1,23 @@
 @import 'colors';
+
+.user-list {
+  float: right;
+  bottom: 0;
+  right: 1em;
+  background-color: black;
+  height: 300px;
+  width: 250px;
+  z-index: 999;
+}
+
+.user-list ul {
+ list-style: none;
+}
+
+ul {
+  display: block;
+}
+
+li {
+  color: white;
+}
