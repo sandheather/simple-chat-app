@@ -1,9 +1,9 @@
 @import 'colors';
 
 .user-list {
-  float: right;
+  position: absolute;
   bottom: 0;
-  right: 1em;
+  right: 3em;
   background-color: black;
   height: 300px;
   width: 250px;

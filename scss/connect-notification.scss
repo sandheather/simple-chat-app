@@ -1,14 +1,16 @@
 @import 'colors';
 
 .notification {
-  float: right;
+  // float: right;
+  position: absolute;
   top: 5%;
   right: 0;
   background-color: black;
+  line-height: 1em;
 }
 
 .message {
   color: white;
-  margin: 7%;
+  // margin: 7%;
   list-style: none;
 }
