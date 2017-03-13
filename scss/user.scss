@@ -8,6 +8,8 @@
   height: 300px;
   width: 250px;
   z-index: 999;
+  transform: translate(0,200vh);
+  transition: all 0.4s ease;
 }
 
 .user-list ul {
@@ -16,8 +18,19 @@
 
 ul {
   display: block;
+  margin-top: 100px;
 }
 
 li {
   color: white;
+}
+
+.user-list.active {
+  transform: translateY(0);
+}
+
+.user-list-button {
+  position: absolute;
+  bottom: 0;
+  right: 3em;
 }
