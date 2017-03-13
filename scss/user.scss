@@ -4,7 +4,7 @@
   position: absolute;
   bottom: 0;
   right: 3em;
-  background-color: black;
+  background-color: $primary;
   height: 300px;
   width: 250px;
   z-index: 999;
@@ -22,7 +22,7 @@ ul {
 }
 
 li {
-  color: white;
+  color: $secondary;
 }
 
 .user-list.active {
